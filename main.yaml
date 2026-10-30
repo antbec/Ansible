@@ -1,1 +1,5 @@
 ---
+- hosts: my_server
+  tasks:
+   - name: Ping-pong
+     ansible.builtin.ping:
